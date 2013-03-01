@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model>
+	<params group="JL_EXT_EXTENDED_PREFERENCES" addpath="/administrator/components/com_joomleague/elements">
+	
+		<param name="JL_EXT_PERSON_OCCUPATION" type="text" label="JL_EXT_PERSON_OCCUPATION" description="Occupation" backendonly="1">
+		</param>
+		
+		<param name="JL_EXT_PERSON_PAGER" type="text" label="JL_EXT_PERSON_PAGER" description="Pager" backendonly="0">
+		</param>
+		
+		<param name="JL_EXT_PERSON_FAX" type="text" label="JL_EXT_PERSON_FAX" description="Fax" backendonly="0">
+		</param>
+		
+		<param name="JL_EXT_PERSON_MESSENGER1" type="text" label="JL_EXT_PERSON_MESSENGER1" description="Messenger 1" backendonly="0">
+		</param>
+		
+		<param name="JL_EXT_PERSON_MESSENGER2" type="text" label="JL_EXT_PERSON_MESSENGER2" description="Messenger 2" backendonly="0">
+		</param>
+		
+		<param name="JL_EXT_PERSON_DATE_SINCE" type="calendar" label="JL_EXT_PERSON_DATE_SINCE" description="Clubmember since" backendonly="0">
+		</param>
+		
+		<param name="JL_EXT_PERSON_DATE_UNTIL" type="calendar" label="JL_EXT_PERSON_DATE_UNTIL" description="Clubmember until" backendonly="0">
+		</param>
+		
+		<param name="JL_EXT_PERSON_REASONFORLEAVE" type="textarea" rows="4" cols="50" label="JL_EXT_PERSON_REASONFORLEAVE" description="Reason for leaving Club" backendonly="1">
+		</param>
+		
+		<param cssclass="" name="JL_EXT_PERSON_TWITTER" type="link" label="JL_EXT_PERSON_TWITTER" description="JL_EXT_PERSON_TWITTER_DESCRIPTION" backendonly="">
+		</param>
+		
+		<param cssclass="" name="JL_EXT_PERSON_FACEBOOK" type="link" label="JL_EXT_PERSON_FACEBOOK" description="JL_EXT_PERSON_FACEBOOK_DESCRIPTION" backendonly="">
+		</param>
+		
+		<param cssclass="" name="JL_EXT_PERSON_MSN" type="link" label="JL_EXT_PERSON_MSN" description="JL_EXT_PERSON_MSN_DESCRIPTION" backendonly="">
+		</param>
+		
+		<param cssclass="" name="JL_EXT_PERSON_MYSPACE" type="link" label="JL_EXT_PERSON_MYSPACE" description="JL_EXT_PERSON_MYSPACE_DESCRIPTION" backendonly="">
+		</param>
+		
+		<param cssclass="" name="JL_EXT_PERSON_ICQ" type="link" label="JL_EXT_PERSON_ICQ" description="JL_EXT_PERSON_ICQ_DESCRIPTION" backendonly="">
+		</param>
+		
+	</params>
+</model>

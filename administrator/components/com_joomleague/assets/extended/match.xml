@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model>
+	<params group="JL_EXT_EXTENDED_PREFERENCES" addpath="/administrator/components/com_joomleague/elements">
+	
+		<param name="JL_EXT_MATCH_TVBROADCAST" type="textarea" rows="4" cols="50" label="JL_EXT_MATCH_TVBROADCAST" description="Enter the tv broadcast info here." backendonly="0">
+		</param>
+			
+		<param name="Weather" type="list" label="JL_EXT_MATCH_WEATHER" description="Weather" backendonly="0">
+			
+			
+			
+			
+						
+			
+		<option value="dry">Dry</option><option value="rainy">Rainy</option><option value="sunny">Sunny</option><option value="windy">Windy</option><option value="snowing">Snowing</option></param>		
+		
+		<param name="JL_EXT_MATCH_EXTERNAL_LINK" type="link" label="JL_EXT_MATCH_EXTERNAL_LINK" description="Matchlink" backendonly="0">
+		</param>
+		
+		<param name="JL_EXT_MATCH_FIELDCONDITION" type="list" label="JL_EXT_MATCH_FIELDCONDITION" description="Field condition" backendonly="0">
+			
+			
+			
+			
+		<option value="normal">Normal</option><option value="dry">Dry</option><option value="wet">Wet</option></param>		
+		
+	</params>
+</model>
