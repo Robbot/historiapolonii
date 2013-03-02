@@ -1,0 +1,20 @@
+
+#container #header{
+	background:url(../images/banner_bg.gif) left top no-repeat;
+}
+#container #top_menu_container{
+	background:url(../images/top_menu_bg.gif) center top no-repeat;
+}
+#contents{
+	background:url(../images/contents_bg.gif) repeat-y;	
+}
+
+#footer{
+	width:990px;
+	height:22px;
+	background:url(../images/footer.gif) center top no-repeat;
+}
+a.mainlevel:link, a.mainlevel:visited {
+	background:#315b80;
+	
+}
