@@ -11,5 +11,9 @@
 *tmp/
 *cache/
 *administrator/components/com_akeeba/
+*administrator/components/com_j4age/
 *media/com_akeeba/
+*administrator/templates/system/error.php
+*templates/system/error.php
+*googlee3a44fbabe38631b.html
 *wiki/
