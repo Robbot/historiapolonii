@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <sections>
+        <section id="1" title="Template Content"/>
+    </sections>
+    <categories>
+        <category id="1" section="1" title="Featured"/>
+        <category id="2" section="1" title="Articles"/>
+    </categories>
+    <articles>
+        <article id="1" section="1" category="2" title="Home" alias="article" path="/new-page">
+            <![CDATA[<div class="art-content-layout-br" style="border-top-width:1px;border-top-style:solid;border-top-color:#D9D0C9;margin-top: 1px;margin-bottom: 1px;">
+</div><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding: 0px; width:100%" >
+        <p style="margin-bottom: 1px; margin-top: 1px;"><img width="788" height="374" alt="" src="images/template-content/contentimage-01-2-3-2-2-2-2.jpg" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=""><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout-br" style="border-top-width:1px;border-top-style:solid;border-top-color:#D9D0C9;margin-top: 1px;margin-bottom: 1px;">
+</div><div class="art-content-layout" style="border-spacing: 0px 3px; border-collapse: separate; ">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="border-right-style:solid;border-right-width:1px;border-right-color:#D9D0C9; padding: 5px; width:33%" >
+        <h3 style="text-align: center;padding-bottom: 10px;border-bottom:1px solid #d9d0c9">Member Stories</h3><p style="text-align: center;"><img width="250" height="153" alt="" src="images/template-content/shutterstock_47876986-2-2.png" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=""><br></p><p style="text-align: left;">Tincidunt at enim fusce feugiat pede proin orci porta nonummy ultricies dolor venenatis per ligula  nec in. Rhoncus ut lectus tellus eleifend congue eros orci. Phasellus est.<br></p><p style="text-align: left;"><a href="#" class="art-button">Read More</a></p>
+    </div><div class="art-layout-cell" style="padding: 5px; width:34%" >
+        <h3 style="text-align: center;padding-bottom: 10px;border-bottom:1px solid #d9d0c9">Our Courses</h3><ul><li>Sit.</li><li>Id vel.</li><li>Dui. </li><li>Nonummy vel.</li><li>Quisque mus. </li><li>Nunc.</li><li>Placerat et.</li><li>Volutpat aptent.</li><li>In cras.</li><li>Cursus in non.<br></li><li>Semper accumsan.</li></ul><p style="text-align: left;"><a href="#" class="art-button">Read More</a></p>
+    </div><div class="art-layout-cell" style="border-left-style:solid;border-left-width:1px;border-left-color:#D9D0C9; padding: 10px; width:33%" >
+        <h3 style="text-align: center;padding-bottom: 10px;border-bottom:1px solid #d9d0c9">Services</h3><p><span style="font-weight: bold;">Consectetuer.</span></p><p style="padding-left: 20px;">Penatibus a facilisi arcu hendrerit tortor.  <a href="#">Learn more</a></p><p><span style="font-weight: bold;">Eu non et maecenas libero.</span></p><p style="padding-left: 20px;">Dolor nisl orci vivamus ipsum quam ac sem sed primis leo aliquam. <a href="#">Learn more</a></p><p><span style="font-weight: bold;">Accumsan. </span></p><p style="padding-left: 20px;">Amet maecenas hac quam nec turpis quam lacus tristique  posuere non. Non posuere vulputate pellentesque varius volutpat dui praesent. <a href="#">Learn more</a></p>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="2" section="1" category="2" title="Podstrona 1" alias="article-1" path="/new-page/new-page">
+            <![CDATA[<p><br></p>]]>
+        </article>
+        <article id="3" section="1" category="2" title="Podstrona 2" alias="article-2" path="/new-page/new-page-2">
+            <![CDATA[<p><br></p>]]>
+        </article>
+        <article id="4" section="1" category="2" title="Podstrona 3" alias="article-3" path="/new-page/new-page-3">
+            <![CDATA[<p><br></p>]]>
+        </article>
+        <article id="5" section="1" category="2" title="Contacts" alias="article-4" path="/new-page-2">
+            <![CDATA[<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell" style="padding: 0px; width:40%" >
+        <p style="text-align: center;"><img width="280" height="280" alt="" src="images/template-content/shutterstock_47876986-02-2.png" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><br></p>
+    </div><div class="art-layout-cell" style="width:60%" >
+        <p>A tempus proin conubia ut. <br>  Główny Miasto, Country 12345-6789</p><p>Adipiscing lacinia.<br>  Ad aliquet rhoncus.</p><p>A. <a href="#">http://www.domain.com<br></a>A. <a href="#">email@domain.com</a></p><p><a href="#">See the map</a><br></p>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+    </articles>
+    <menus>
+        <menu id="1" name="ct-horizontal-menu" title="Content / Horizontal Menu"/>
+        <menu id="2" name="ct-vertical-menu" title="Content / Vertical Menu"/>
+        <menu id="3" name="ct-special-menu" title="Content / Special Menu"/>
+    </menus>
+    <menuitems>
+        <menuitem id="1" menu="ct-horizontal-menu" title="Home" alias="ct-menu-item-1" path="/new-page" menutype="hmenu" type="single-article" article="1" showTitle="no" category="1" default="1"/>
+        <menuitem id="2" menu="ct-vertical-menu" title="Home" alias="ct-menu-item-2" path="/new-page" menutype="vmenu" type="single-article" article="1" showTitle="no" category="1"/>
+        <menuitem id="3" menu="ct-horizontal-menu" title="Podstrona 1" alias="ct-menu-item-3" path="/new-page/new-page" menutype="hmenu" type="single-article" parent="1" article="2" showTitle="yes" category="1"/>
+        <menuitem id="4" menu="ct-vertical-menu" title="Podstrona 1" alias="ct-menu-item-4" path="/new-page/new-page" menutype="vmenu" type="single-article" parent="2" article="2" showTitle="yes" category="1"/>
+        <menuitem id="5" menu="ct-horizontal-menu" title="Podstrona 2" alias="ct-menu-item-5" path="/new-page/new-page-2" menutype="hmenu" type="single-article" parent="1" article="3" showTitle="yes" category="1"/>
+        <menuitem id="6" menu="ct-vertical-menu" title="Podstrona 2" alias="ct-menu-item-6" path="/new-page/new-page-2" menutype="vmenu" type="single-article" parent="2" article="3" showTitle="yes" category="1"/>
+        <menuitem id="7" menu="ct-horizontal-menu" title="Podstrona 3" alias="ct-menu-item-7" path="/new-page/new-page-3" menutype="hmenu" type="single-article" parent="1" article="4" showTitle="yes" category="1"/>
+        <menuitem id="8" menu="ct-vertical-menu" title="Podstrona 3" alias="ct-menu-item-8" path="/new-page/new-page-3" menutype="vmenu" type="single-article" parent="2" article="4" showTitle="yes" category="1"/>
+        <menuitem id="9" menu="ct-horizontal-menu" title="Contacts" alias="ct-menu-item-9" path="/new-page-2" menutype="hmenu" type="single-article" article="5" showTitle="yes" category="1"/>
+        <menuitem id="10" menu="ct-vertical-menu" title="Contacts" alias="ct-menu-item-10" path="/new-page-2" menutype="vmenu" type="single-article" article="5" showTitle="yes" category="1"/>
+        <menuitem id="11" menu="ct-special-menu" title="Special Blog Page" alias="ct-menu-item-11" menutype="menu" type="category-blog-layout" category="1"/>
+        <menuitem id="12" menu="ct-special-menu" title="Special Single Page" alias="ct-menu-item-12" menutype="menu" type="single-article" showTitle="yes" category="1"/>
+    </menuitems>
+    <modules>
+        <module id="1" title="Content / Horizontal Menu" showTitle="true" position="user3" type="menu" menu="ct-horizontal-menu"/>
+        <module id="2" title="Witamy!" showTitle="true" position="left" type="custom">
+            <![CDATA[<p><img width="76" height="102" alt="" src="images/template-content/01-2.jpg" style="float: left;" class="">Fusce justo taciti ante ipsum neque  erat convallis id. Elit leo ut  mauris nibh mattis nullam hendrerit quisque ut purus a venenatis nec natoque nisi sed auctor hac. </p><p><a href="#">Learn more</a></p><p><img width="193" height="49" alt="" src="images/template-content/buttom-2-2-2-2.png" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=""><br></p>]]>
+        </module>
+        <module id="3" title="Working Hours" showTitle="true" position="left" type="custom">
+            <![CDATA[<p><span style="font-weight: bold;">Id.</span> Placerat augue consequat.</p><p><span style="font-weight: bold;">Dictum. </span> Leo mollis libero.</p>]]>
+        </module>
+        <module id="4" title="Lokalizacja" showTitle="true" position="left" type="custom">
+            <![CDATA[<p>Sit aliquam leo arcu purus.<br>  Główny Miasto, Country 12345-6789</p><p>Curae sem maecenas.<br>  Eget turpis mauris.</p><p>A. <a href="#">http://www.domain.com<br></a>A. <a href="#">email@domain.com</a></p><p><a href="#">See the map</a><br></p>]]>
+        </module>
+        <module id="5" title="Follow Us" showTitle="true" position="left" type="custom">
+            <![CDATA[<p style="text-align: left;"><img width="38" height="38" alt="" src="images/template-content/twitter-2.png" class=""><img width="38" height="38" alt="" src="images/template-content/facebook-2.png" class=""><img width="38" height="38" alt="" src="images/template-content/flickr-2.png"><img width="38" height="38" alt="" src="images/template-content/rss-2.png"><br></p>]]>
+        </module>
+        <module id="6" title="Footer" showTitle="false" position="copyright" type="custom">
+            <![CDATA[<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 50%">
+        <p style="text-align: center;"><a href="#">Gift Cards</a>|<a href="#">Jobs</a>|<a href="#">Contacts Us</a>|<a href="#">Privacy Policy</a></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 50%">
+        <p>Enim id fringilla libero quam ligula magna. <a href="http://www.iconfinder.com/search/?q=iconset:WPZOOM_Social_Networking_Icon_Set">Ikony</a> A. <a href="http://www.wpzoom.com/">David Ferreira</a></p>
+    </div>
+    </div>
+</div>]]>
+        </module>
+    </modules>
+    <parameters>
+        <parameter id="1" name="siteTitle" value="eSport"/>
+        <parameter id="2" name="siteSlogan" value="Experience Yourself. It Works!"/>
+    </parameters>
+</data>

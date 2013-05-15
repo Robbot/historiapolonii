@@ -1,0 +1,11 @@
+/* Begin Additional CSS Styles */
+.art-blockheader .t, .art-vmenublockheader .t {white-space: nowrap;}
+
+.responsive .art-header .art-headline a{
+background-color: rgba(235, 39, 29, .9);
+border-radius: 5px;
+padding: 2px;
+}
+
+
+/* End Additional CSS Styles */
