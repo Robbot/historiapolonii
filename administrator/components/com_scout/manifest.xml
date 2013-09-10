@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>Scout</name>
+    <version>0.6.0</version>
+    <creationDate>June 2009</creationDate>
+    <author>Dioscouri.com</author>
+    <authorEmail>info@dioscouri.com</authorEmail>
+    <authorUrl>http://www.dioscouri.com</authorUrl>
+    <copyright>2010 Dioscouri.com</copyright>
+    <copyrightHolder>Dioscouri.com</copyrightHolder>
+    <license>GNU General Public License v2</license>
+    <description>An activity monitor for Joomla</description>
+
+	<!-- Application/site -->    
+	<files folder="site">
+		<file>scout.php</file>
+		<file>controller.php</file>
+		<file>index.html</file>
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">languages/site/en-GB.com_scout.ini</language>
+        <language tag="bg-BG">languages/site/bg-BG.com_scout.ini</language>
+	</languages>
+	
+	<!-- Application/administrator -->
+	<administration>
+		<menu img="../media/com_scout/images/scout_16.png">Scout</menu>
+
+		<files folder="admin">
+			<file>scout.php</file>
+			<file>controller.php</file>
+			<file>defines.php</file>
+			<file>index.html</file>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>install</folder>
+			<folder>library</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+
+		<languages>
+			<language tag="en-GB">languages/admin/en-GB.com_scout.ini</language>
+            <language tag="bg-BG">languages/admin/bg-BG.com_scout.ini</language>
+            <language tag="pl-PL">languages/admin/pl-PL.com_scout.ini</language>
+		</languages>
+	</administration>
+	
+	<!-- Installation -->
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install/install.sql</file>
+		</sql>
+	</install>
+	
+	<installfile>install/install.php</installfile>
+	<uninstallfile>install/uninstall.php</uninstallfile>
+
+	<!--  Media -->
+	<media destination="com_scout" folder="media">
+		<folder>css</folder>
+		<folder>fusioncharts</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</media>
+		
+	<!-- Modules -->	
+	<modules>
+		<!-- <module module="mod_whatever" publish="true" client="site"/> -->
+        <module module="mod_scout_activity" publish="true" client="administrator" position="cpanel" />
+	</modules> 
+
+	<!-- Plugins -->
+	<plugins>
+        <plugin plugin="scout_plugin_ambrasubs" publish="true" group="ambrasubs" element="scout" />
+        <plugin plugin="scout_plugin_billets" publish="true" group="billets" element="scout" />
+        <plugin plugin="scout_plugin_community" publish="true" group="community" element="scout" />
+		<plugin plugin="scout_plugin_content" publish="true" group="content" element="scout" />
+        <plugin plugin="scout_plugin_k2" publish="true" group="k2" element="scout" />
+        <plugin plugin="scout_plugin_koowa" publish="true" group="koowa" element="scout" />
+		<plugin plugin="scout_plugin_system" publish="true" group="system" element="scout" />
+        <plugin plugin="scout_plugin_tienda" publish="true" group="tienda" element="scout" />
+        <plugin plugin="scout_plugin_user" publish="true" group="user" element="scout" />
+	</plugins>
+</install>

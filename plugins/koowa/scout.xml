@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="koowa" method="upgrade">
+	<name>Koowa - Scout</name>
+    <version>0.6.0</version>
+	<author>Dioscouri Design</author>
+	<creationDate>May 2010</creationDate>
+	<copyright>2008 - 2010 Dioscouri.com</copyright>
+	<license>GNU General Public License v2</license>
+	<authoremail>info@dioscouri.com</authoremail>
+	<authorurl>dioscouri.com</authorurl>
+	<description>Enables Scout activity logging for all Nooku Framework powered extensions</description>
+
+	<files>
+        <file plugin="scout">scout.php</file>
+    </files>
+
+    <languages folder="languages">
+    </languages>
+</install>

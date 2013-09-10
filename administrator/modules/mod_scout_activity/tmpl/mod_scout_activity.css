@@ -1,0 +1,36 @@
+/**
+ * @package    Fingertips
+ * @author     Dioscouri Design
+ * @link       http://www.dioscouri.com
+ * @copyright  Copyright (C) 2009 Dioscouri Design. All rights reserved.
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
+*/
+
+li.scout_logitem
+{
+	padding-bottom: 5px;
+}	
+
+span.scout_subject
+{
+    font-weight: bold;
+}	
+
+span.scout_verb
+{
+    font-weight: normal;
+}
+
+span.scout_object
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.scout_scopename
+{
+}
+
+span.scout_datetime
+{
+}
