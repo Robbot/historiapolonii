@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+
+#xgallery-image-container-list .image-item {
+	padding: 5px 0;
+}
+
+#xgallery-image-container-list .image-item .image-img {
+	float: left;
+	text-align: center;
+}
+
+#xgallery-image-container-list .image-item .image-name {
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#xgallery-image-container-list .image-item .image-date {
+	clear: right;
+	float: right;
+	font-size: 10px;
+	text-align: right;
+}
+
+#xgallery-image-container-list .image-item .image-hits {
+	clear: right;
+	float: right;
+	font-size: 10px;
+	text-align: right;
+}
+
+#xgallery-image-container-list .image-item .image-desc {
+	clear: right;
+	float: right;
+	font-size: 10px;
+	text-align: left;
+	width: 83%;
+}
+
+#xgallery-cat-container-list .image-item {
+	padding: 5px 0;
+}
+
+#xgallery-cat-container-list .image-item .image-img {
+	float: left;
+	text-align: center;
+}
+
+#xgallery-cat-container-list .image-item .image-name {
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#xgallery-cat-container-list .image-item .image-date {
+	clear: right;
+	float: right;
+	font-size: 10px;
+	text-align: right;
+}
+
+#xgallery-cat-container-list .image-item .image-hits {
+	clear: right;
+	float: right;
+	font-size: 10px;
+	text-align: right;
+}
+
+#xgallery-cat-container-list .image-item .image-desc {
+	clear: right;
+	float: right;
+	font-size: 10px;
+	text-align: left;
+	width: 83%;
+}

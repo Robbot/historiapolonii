@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+#thumbContainer img.thumbs {
+	float:left;
+	margin:10px 30px;
+	border: 1px solid #0080A8;
+	padding:1px;
+	cursor: pointer; 
+}
+				
+#thumbContainer img.thumbs:hover {
+	border:1px solid #00CBFF;
+}
+				
+#mainImageOutline {
+	height:510px;
+	margin:5px auto;
+	text-align:center;
+}
+				
+#mainImageOutline img {
+
+}
+				
+#thumbContainer {
+	margin:10px auto;
+	opacity:0;
+}

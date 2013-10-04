@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>Category Edit Form</name>
+	<params addpath="/administrator/components/com_xgallery/elements">
+		<param name="access" type="list" size="20" default="0" label="Access Level" description="DETAILACCESS">
+			<option value="0">Public</option>
+			<option value="1">Registered</option>
+			<option value="2">Special</option>
+		</param>		
+	</params>
+	<params group="calendar">
+		<param name="creation_date" type="calendar" default="" label="Publish date" description="" />
+	</params>	
+	<params group="settings">
+		<param name="allow_comments" type="radio" default="0" label="Allow Comments" description="">
+			<option value="0">Disallow</option>
+			<option value="1">Allow</option>
+		</param>		
+	</params>
+	<params group="metadata">
+		<param name="description" type="textarea" rows="5" cols="30" default="" label="description" description="" />
+		<param name="keywords" type="textarea" rows="5" cols="30" default="" label="keywords" description="" />
+		<param name="robots" type="text" size="20" default="" label="Robots" description="METAROBOTS" />
+		<param name="author" type="text" size="20" default="" label="Author" description="METAAUTHOR" />
+	</params>
+</form>

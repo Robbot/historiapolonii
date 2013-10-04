@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="SINGLE COLLECTION LAYOUT">
+		<message>
+			<![CDATA[SINGLE COLLECTION LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>SINGLE COLLECTION</name>
+		<description>SINGLE COLLECTION DESC</description>
+		<param name="@xgalleryheading" type="xgalleryheading" default="COLLECTION SETTINGS" />
+		<url addpath="/administrator/components/com_xgallery/elements">
+			<param name="id" type="single" default="" label="SELECT COLLECTION" description="SELECT COLLECTION DESC" />
+		</url>
+		<params addpath="/administrator/components/com_xgallery/elements">
+		<param name="moduleclass_sfx" type="text" size="30" default="" label="CLASS SUFFIX" description="CLASS SUFFIX DESC" />
+		<param name="col_img_per_page" type="text" default="20" label="IMAGES PER PAGE" description="IMAGES PER PAGE DESC" />
+		<param name="col_num_thumbcol" type="text" default="4" label="IMAGES PER COL" description="IMAGES PER COL DESC" />	
+		<param name="col_sort_order" type="list" default="id" label="COLL SORT ORDER" description="COLL SORT ORDER DESC">
+			<option value="id">ID</option>
+			<option value="name">NAME</option>
+			<option value="creation_date">DATE</option>
+		</param>
+		<param name="col_sort_order_dir" type="list" default="asc" label="COLL SORT ORDER DIR" description="COLL SORT ORDER DIR DESC">
+			<option value="asc">ASCENDING</option>
+			<option value="desc">DESCENDING</option>
+		</param>
+		<param name="col_show_coll_title" type="radio" default="1" label="SHOW COLLECTION TITLE" description="SHOW COLLECTION TITLE DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="prm_coll_show_tname" type="radio" default="1" label="SHOW THUMB NAME" description="SHOW THUMB NAME DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="prm_col_show_name" type="radio" default="1" label="SHOW NAME" description="SHOW NAME DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="prm_col_show_date" type="radio" default="1" label="SHOW DATE" description="SHOW DATE DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="prm_col_show_hits" type="radio" default="1" label="SHOW HITS" description="SHOW HITS DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="prm_coll_show_coll_quick" type="radio" default="1" label="SHOW QUICKTAKE" description="SHOW QUICKTAKE DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="prm_coll_show_coll_desc" type="radio" default="1" label="SHOW DESCRIPTION" description="SHOW DESCRIPTION DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="prm_coll_show_coll_sub" type="radio" default="1" label="SHOW SUBSCRIPTION" description="SHOW SUBSCRIPTION DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>					
+		<param name="col_width" type="text" size="50" default="75" label="RESIZE WIDTH COLL" description="RESIZE WIDTH COLL DESC" />
+		<param name="col_height" type="text" size="50" default="75" label="RESIZE HEIGHT COLL" description="RESIZE HEIGHT COLL DESC" />
+		<param name="col_width_max" type="text" size="50" default="500" label="RESIZE WIDTH COLL MAX" description="RESIZE WIDTH COLL MAX DESC" />
+		<param name="col_height_max" type="text" size="50" default="500" label="RESIZE HEIGHT COLL MAX" description="RESIZE HEIGHT COLL MAX DESC" />
+		<param name="coll_display_layout" type="list" default="shadowbox" label="DISPLAY LAYOUT" description="DISPLAY LAYOUT DESC">
+				<option value="shadowbox">SHADOWBOX</option>
+				<option value="galleriffic">EMBEDED VIEW GALLERIFFIC</option>
+			</param>
+		<param name="col_enable_lightbox" type="radio" default="1" label="ENABLE LIGHTBOX" description="ENABLE LIGHTBOX DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>			
+		</param>
+		<param name="col_enable_coll_page" type="radio" default="1" label="ENABLE COLL PAGE" description="ENABLE COLL PAGE DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>			
+		</param>
+	</params>		
+	</state>	
+</metadata>

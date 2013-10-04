@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="SINGLE CATEGORY LAYOUT">
+		<message>
+			<![CDATA[SINGLE CATEGORY LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>SINGLE CATEGORY</name>
+		<description>SINGLE CATEGORY DESC</description>
+		<url addpath="/administrator/components/com_xgallery/elements">
+			<param name="@xgalleryheading" type="xgalleryheading" default="GENERAL SETTINGS" />
+			<param name="id" type="category" scope="com_xgallery" default="" label="SELECT CATEGORY" decription="SELECT CATEGORY DESC" />			
+		</url>
+		<params addpath="/administrator/components/com_xgallery/elements">			
+			<param name="moduleclass_sfx" type="text" size="30" default="" label="CLASS SUFFIX" description="CLASS SUFFIX DESC" />
+			<param name="prm_show_cat_title" type="radio" default="1" label="SHOW NAME" decription="SHOW NAME DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_show_cat_quick" type="radio" default="1" label="SHOW QUICKTAKE" decription="SHOW QUICKTAKE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_show_cat_desc" type="radio" default="1" label="SHOW DESCRIPTION" decription="SHOW DESCRIPTION DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_show_cat_rss" type="radio" default="1" label="RSS SHOW RSS FEED" decription="RSS SHOW RSS FEED DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_thumbs_per_row" type="text" size="50" default="4" label="THUMBNAILS PER ROW" description="THUMBNAILS PER ROW DESC" />
+			<param name="prm_cat_width" type="text" size="50" default="75" label="RESIZE WIDTH CAT" description="RESIZE WIDTH CAT DESC" />
+			<param name="prm_cat_height" type="text" size="50" default="75" label="RESIZE HEIGHT CAT" description="RESIZE HEIGHT CAT DESC" />
+			<param name="prm_cat_alias_name" type="text" size="75" default="category" label="CAT ALIAS NAME" description="CAT ALIAS NAME DESC" />
+					
+			<param name="@xgalleryheading" type="xgalleryheading" default="CATEGORY SETTINGS" />
+			<param name="prm_cat_show_subcat" type="radio" default="1" label="SHOW SUB CATEGORIES" description="SHOW SUB CATEGORIES DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_show_cat_title" type="radio" default="1" label="SHOW SUB CATEGORY TITLE" description="SHOW SUB CATEGORY TITLE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_display_layout" type="list" default="table" label="DISPLAY LAYOUT" description="DISPLAY LAYOUT DESC CAT">
+				<option value="cat_table">TABLE VIEW</option>
+				<option value="cat_list">LIST VIEW</option>
+			</param>
+			<param name="prm_cat_sort_order" type="list" default="id" label="CAT SORT ORDER" description="CAT SORT ORDER DESC">
+				<option value="ordering">ORDERING</option>
+				<option value="id">ID</option>
+				<option value="name">NAME</option>
+				<option value="creation_date">DATE</option>
+			</param>
+			<param name="prm_cat_sort_order_dir" type="list" default="asc" label="CAT SORT ORDER DIR" description="CAT SORT ORDER DIR DESC">
+				<option value="asc">ASCENDING</option>
+				<option value="desc">DESCENDING</option>
+			</param>
+			<param name="prm_cat_show_name" type="radio" default="1" label="SHOW NAME" description="SHOW NAME DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_show_date" type="radio" default="1" label="SHOW DATE" description="SHOW DATE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_show_hits" type="radio" default="1" label="SHOW HITS" description="SHOW HITS DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_show_quick" type="radio" default="0" label="SHOW CAT QUICKTAKE" decription="SHOW CAT QUICKTAKE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_sub_limit" type="text" default="8" label="SUB CATEGORY LIMIT" description="SUB CATEGORY LIMIT DESC" />
+			
+			<param name="@xgalleryheading" type="xgalleryheading" default="COLLECTION SETTINGS" />			
+			<param name="prm_cat_coll_show_colls" type="radio" default="1" label="SHOW COLLECTION" decription="SHOW COLLECTION DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_coll_show_coll_title" type="radio" default="1" label="SHOW COLLECTION TITLE" decription="SHOW COLLECTION TITLE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_coll_display_layout" type="list" default="table" label="DISPLAY LAYOUT" description="DISPLAY LAYOUT DESC CAT">
+				<option value="table">TABLE VIEW</option>
+				<option value="list">LIST VIEW</option>
+			</param>
+			<param name="prm_cat_coll_sort_order" type="list" default="id" label="CAT SORT ORDER" description="CAT SORT ORDER DESC">
+				<option value="ordering">ORDERING</option>
+				<option value="id">ID</option>
+				<option value="name">NAME</option>
+				<option value="creation_date">DATE</option>
+			</param>
+			<param name="prm_cat_coll_sort_order_dir" type="list" default="asc" label="COLL SORT ORDER DIR" description="COLL SORT ORDER DIR DESC">
+				<option value="asc">ASCENDING</option>
+				<option value="desc">DESCENDING</option>
+			</param>
+			<param name="prm_cat_coll_show_name" type="radio" default="1" label="SHOW NAME" description="SHOW NAME DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_coll_show_date" type="radio" default="1" label="SHOW DATE" description="SHOW DATE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_coll_show_hits" type="radio" default="1" label="SHOW HITS" description="SHOW HITS DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_coll_show_quick" type="radio" default="0" label="SHOW CAT QUICKTAKE" decription="SHOW CAT QUICKTAKE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="prm_cat_coll_limit" type="text" default="8" label="COLL IMAGES PER PAGE" description="COLL IMAGES PER PAGE DESC" />
+		</params>
+	</state>
+</metadata>

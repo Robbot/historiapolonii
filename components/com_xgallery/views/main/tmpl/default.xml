@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="MAIN LANDING PAGE">
+		<message>
+			<![CDATA[MAIN LANDING PAGE DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>MAIN LANDING PAGE</name>
+		<description>MAIN LANDING PAGE DESC</description>
+		<params addpath="/administrator/components/com_xgallery/elements">
+			<param name="@xgalleryheading" type="xgalleryheading" default="GENERAL SETTINGS" />			
+			<param name="main_show_main_title" type="radio" default="1" label="SHOW NAME" decription="SHOW NAME DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_main_quick" type="radio" default="1" label="SHOW QUICKTAKE" decription="SHOW QUICKTAKE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_main_desc" type="radio" default="1" label="SHOW DESCRIPTION" decription="SHOW DESCRIPTION DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_main_rss" type="radio" default="1" label="RSS SHOW RSS FEED" decription="RSS SHOW RSS FEED DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			
+			<param name="@xgalleryheading" type="xgalleryheading" default="CATEGORY SETTINGS" />
+			<param name="main_show_subcat" type="radio" default="1" label="SHOW SUB CATEGORIES" decription="SHOW SUB CATEGORIES DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_cat_title" type="radio" default="1" label="SHOW SUB CATEGORY TITLE" decription="SHOW SUB CATEGORY TITLE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_cat_display_layout" type="list" default="cat_table" label="CAT DISPLAY LAYOUT" description="CAT DISPLAY LAYOUT DESC">
+				<option value="cat_table">TABLE VIEW</option>
+				<option value="cat_list">LIST VIEW</option>
+			</param>
+			<param name="main_cat_sort_order" type="list" default="latest" label="CAT SORT ORDER" description="CAT SORT ORDER DESC">
+				<option value="ordering">ORDERING</option>
+				<option value="latest">LATEST</option>
+				<option value="random">RANDOM</option>
+				<option value="popular">MOST VIEWED</option>
+			</param>
+			<param name="main_cat_sort_order_dir" type="list" default="asc" label="CAT SORT ORDER DIR" description="CAT SORT ORDER DIR DESC">
+				<option value="asc">ASCENDING</option>
+				<option value="desc">DESCENDING</option>
+			</param>
+			<param name="main_show_cat_name" type="radio" default="1" label="SHOW CAT NAME" decription="SHOW CAT NAME DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_cat_date" type="radio" default="0" label="SHOW CAT DATE" decription="SHOW CAT DATE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_cat_hits" type="radio" default="0" label="SHOW CAT HITS" decription="SHOW CAT HITS DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_cat_quick" type="radio" default="0" label="SHOW CAT QUICKTAKE" decription="SHOW CAT QUICKTAKE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>						
+			<param name="main_cat_limit" type="text" default="8" label="CAT IMAGES PER PAGE" description="CAT IMAGES PER PAGE DESC" />
+			
+			<param name="@xgalleryheading" type="xgalleryheading" default="COLLECTION SETTINGS" />
+			<param name="main_show_colls" type="radio" default="1" label="SHOW COLLECTION" decription="SHOW COLLECTION DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_coll_title" type="radio" default="1" label="SHOW COLLECTION TITLE" decription="SHOW COLLECTION TITLE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_coll_display_layout" type="list" default="table" label="COLL DISPLAY LAYOUT" description="COLL DISPLAY LAYOUT DESC">
+				<option value="table">TABLE VIEW</option>
+				<option value="list">LIST VIEW</option>
+			</param>
+			<param name="main_coll_sort_order" type="list" default="latest" label="CAT SORT ORDER" description="CAT SORT ORDER DESC">
+				<option value="ordering">ORDERING</option>
+				<option value="latest">LATEST</option>
+				<option value="random">RANDOM</option>
+				<option value="popular">MOST VIEWED</option>
+			</param>
+			<param name="main_coll_sort_order_dir" type="list" default="asc" label="CAT SORT ORDER DIR" description="CAT SORT ORDER DIR DESC">
+				<option value="asc">ASCENDING</option>
+				<option value="desc">DESCENDING</option>
+			</param>
+			<param name="main_show_coll_name" type="radio" default="1" label="SHOW COLL NAME" decription="SHOW COLL NAME DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_coll_date" type="radio" default="0" label="SHOW COLL DATE" decription="SHOW COLL DATE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>
+			<param name="main_show_coll_hits" type="radio" default="0" label="SHOW COLL HITS" decription="SHOW COLL HITS DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>			
+			<param name="main_show_coll_quick" type="radio" default="0" label="SHOW COLL QUICKTAKE" decription="SHOW COLL QUICKTAKE DESC">
+				<option value="1">YES</option>
+				<option value="0">NO</option>
+			</param>			
+			<param name="main_img_per_page" type="text" default="20" label="IMAGES PER PAGE" description="IMAGES PER PAGE DESC" />
+		</params>
+	</state>
+</metadata>

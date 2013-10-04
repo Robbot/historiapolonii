@@ -1,0 +1,70 @@
+@CHARSET "ISO-8859-1";
+#xgallery-image-container {
+
+}
+
+#xgallery-image-container .image-item, #xgallery-cat-container .image-item {
+	float:left;
+	text-align:center;
+	margin:10px 0;
+}
+
+.image-item .image-img {
+	text-align:center;
+}
+
+.image-item .image-name {
+	text-align:center;
+	font-size:11px;
+}
+
+.image-item .image-date {
+	text-align:center;
+	font-size:10px;
+}
+
+#xgallery-image-container div.loader {
+	background-image: url('loaderWhite.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 48px;
+	height: 48px; /* This should be set to be at least the height of the largest image in the slideshow */
+	margin:0 auto;
+}
+
+#xgallery-image-container .image-clear {
+	clear:both;
+}
+
+#pagin-footer {
+	padding:10px 0;
+}
+
+#pagin-footer .pagin-item {
+	text-align:center;
+}
+
+#xgallery-desc {
+	padding:10px 0;
+}
+
+#xgallery-info {	
+	float:right;
+	margin:10px;
+	padding:10px;
+	text-align:right;
+	width:150px
+}
+
+#xgallery-desc #xgallery-info .image-name {
+	font-size:12px;
+	font-weight:bold;
+}
+
+.image-clear {
+	clear:both;
+}
+
+.image-clear-left {
+	clear:left;
+}
