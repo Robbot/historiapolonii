@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install type="plugin" group="editors-xtd" version="1.5.0" method="upgrade">
+    <name>Button - JFUploader Editor Plugin</name>
+    <creationDate>September 2013</creationDate>
+    <author>Michael Dempfle</author>
+    <authorEmail>jfu@mdempfle.de</authorEmail>
+    <authorUrl>http://jfu.tinywebgallery.com</authorUrl>
+    <copyright>Copyright (c) Michael Dempfle, 2013. All rights reserved</copyright>
+    <license>GPL</license>
+    <version>3.1</version>
+    <description>PLG_EDITOR_XLD_JFU_DESC</description>
+    <files>
+        <filename plugin="jfuploader_editor">jfuploader_editor.php</filename>
+        <filename>jfuploader_editor.png</filename>
+        <filename>index.html</filename>
+    </files>
+
+    <languages folder="language">
+        <!--
+              these files will be installed in the administrator/language folder.
+          -->
+        <language tag="en-GB">en-GB/en-GB.plg_editors-xtd_jfuploader_editor.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_editors-xtd_jfuploader_editor.ini</language>
+    </languages>
+    <params>
+        <param name="tfu_sel_id" type="radio" default="0" label="JFU_PARAM_MODE" description="JFU_PARAM_MODE_TOOLTIP">
+            <option value="0">E_S_ID</option>
+            <option value="1">E_S_GID</option>
+        </param>
+        <param name="tfu_id" type="text" size="20" default="" label="JFU_PARAM_ID" description="JFU_PARAM_ID_TOOLTIP"/>
+        <param name="popup_width"
+               type="text"
+               default="680"
+               label="PLG_EDITOR_XLD_JFU_POPUP_WIDTH_LABEL"
+               description="PLG_EDITOR_XLD_JFU_POPUP_WIDTH_DESC">
+        </param>
+        <param name="popup_height"
+               type="text"
+               default="530"
+               label="PLG_EDITOR_XLD_JFU_POPUP_HEIGHT_LABEL"
+               description="PLG_EDITOR_XLD_JFU_POPUP_HEIGHT_DESC">
+        </param>
+        <param name="block_type" type="radio" default="span" label="PLG_EDITOR_XLD_JFU_PARAM_BLOCK_TYPE"
+               description="PLG_EDITOR_XLD_JFU_PARAM_BLOCK_TYPE_DESC">
+            <option value="span">PLG_EDITOR_XLD_JFU_PARAM_BLOCK_TYPE_SPAN</option>
+            <option value="div">PLG_EDITOR_XLD_JFU_PARAM_BLOCK_TYPE_DIV</option>
+        </param>
+        <!-- params what to show. -->
+        <param name="tfu_show_resize" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_RESIZE"
+               description="PLG_EDITOR_XLD_SHOW_RESIZE_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_enable_resize" type="radio" default="1" label="PLG_EDITOR_XLD_ENABLE_RESIZE"
+               description="PLG_EDITOR_XLD_ENABLE_RESIZE_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_insert_resize" type="radio" default="1" label="PLG_EDITOR_XLD_INSERT_RESIZE"
+               description="PLG_EDITOR_XLD_INSERT_RESIZE_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_show_border" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_BORDER"
+               description="PLG_EDITOR_XLD_SHOW_BORDER_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_show_alignment" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_ALIGNMENT"
+               description="PLG_EDITOR_XLD_SHOW_ALIGNMENT_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_show_spacing" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_SPACING"
+               description="PLG_EDITOR_XLD_SHOW_SPACING_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_show_thumbnail_create" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_THUMBNAIL_CREATE"
+               description="PLG_EDITOR_XLD_SHOW_THUMBNAIL_CREATE_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_show_caption" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_CAPTION"
+               description="PLG_EDITOR_XLD_SHOW_CAPTION_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_show_image_extra" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_IMAGE_EXTRA"
+               description="PLG_EDITOR_XLD_SHOW_IMAGE_EXTRA_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_show_ruler" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_RULER"
+               description="PLG_EDITOR_XLD_SHOW_RULER_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+        <param name="tfu_show_google_doc" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_GOOGLE_DOC"
+               description="PLG_EDITOR_XLD_SHOW_GOOGLE_DOC_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param> 
+        <param name="tfu_show_help" type="radio" default="1" label="PLG_EDITOR_XLD_SHOW_SHOW_HELP"
+               description="PLG_EDITOR_XLD_SHOW_SHOW_HELP_DESC">
+            <option value="1">E_S_YES</option>
+            <option value="0">E_S_NO</option>
+        </param>
+    </params>
+</install>

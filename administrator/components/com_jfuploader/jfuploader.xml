@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+  <name>JFUploader</name>
+  <creationDate>September 2013</creationDate>
+  <author>Michael Dempfle</author>
+  <copyright>Freeeware</copyright>
+  <authorEmail>jfu@mdempfle.de</authorEmail>
+  <authorUrl>jfu.tinywebgallery.com</authorUrl>
+  <version>3.1</version>
+  <license>GNU GPL</license>
+  <files folder="site">
+    <filename>jfuploader.php</filename>
+    <filename>jfuploader.html.php</filename>
+    <filename>jfuploader.css</filename>
+    <filename>jfuploader.js</filename>
+    <filename>index.html</filename>
+    <filename>images/mini.gif</filename>
+    <filename>images/1x1.gif</filename>
+    <filename>images/index.html</filename>
+  </files>
+  <languages folder="site/language">
+    <language tag="en-GB">en-GB.com_jfuploader.ini</language>
+    <language tag="de-DE">de-DE.com_jfuploader.ini</language>
+    <language tag="ja-JP">ja-JP.com_jfuploader.ini</language>
+  </languages>
+  <params>
+    <param name="tfu_sel_id" type="radio" default="0" label="JFU_PARAM_MODE" description="JFU_PARAM_MODE_TOOLTIP">
+      <option value="0">E_S_ID</option>
+      <option value="1">E_S_GID</option>
+    </param>
+    <param name="tfu_id"  type="text" size="20" default="" label="JFU_PARAM_ID" description="JFU_PARAM_ID_TOOLTIP" />
+  </params>
+  <installfile>install.jfuploader.php</installfile>
+  <uninstallfile>uninstall.jfuploader.php</uninstallfile>
+  <administration>
+    <menu>JFUploader</menu>
+    <submenu>
+      <menu act="upload">UPLOAD</menu>
+      <menu act="config">CONFIG</menu>
+      <menu act="user">USERS</menu>
+      <menu act="plugins">PLUGINS</menu>
+      <menu act="help">INFO / LIMITS / REGISTER</menu>
+    </submenu>
+    <languages folder="admin/language">
+      <language tag="en-GB">en-GB.com_jfuploader.ini</language>
+      <language tag="en-GB">en-GB.com_jfuploader.menu.ini</language>
+      <language tag="de-DE">de-DE.com_jfuploader.ini</language>
+      <language tag="de-DE">de-DE.com_jfuploader.menu.ini</language>
+      <language tag="ja-JP">ja-JP.com_jfuploader.ini</language>
+      <language tag="ja-JP">ja-JP.com_jfuploader.menu.ini</language>
+    </languages>
+    <files folder="admin">
+      <filename>tfu/swfobject.js</filename>
+      <filename>tfu/my_tfu_config.php</filename>
+      <filename>tfu/tfu_config.php</filename>
+      <filename>tfu/tfu_exifReader.php</filename>
+      <filename>tfu/tfu_file.php</filename>
+      <filename>tfu/tfu_helper.php</filename>
+      <filename>tfu/tfu_login.php</filename>
+      <filename>tfu/tfu_upload.php</filename>
+      <filename>tfu/tfu_zip.class.php</filename>
+      <filename>tfu/lang/.htaccess</filename>
+      <filename>tfu/lang/bg.xml</filename>
+      <filename>tfu/lang/br.xml</filename>
+      <filename>tfu/lang/cn.xml</filename>
+      <filename>tfu/lang/ct.xml</filename>
+      <filename>tfu/lang/cz.xml</filename>
+      <filename>tfu/lang/da.xml</filename>
+      <filename>tfu/lang/de.xml</filename>
+      <filename>tfu/lang/default.xml</filename>
+      <filename>tfu/lang/en.xml</filename>
+      <filename>tfu/lang/es.xml</filename>
+      <filename>tfu/lang/fr.xml</filename>
+      <filename>tfu/lang/el.xml</filename>
+      <filename>tfu/lang/hu.xml</filename>
+      <filename>tfu/lang/it.xml</filename>
+      <filename>tfu/lang/jp.xml</filename>
+      <filename>tfu/lang/lt.xml</filename>
+      <filename>tfu/lang/nl.xml</filename>
+      <filename>tfu/lang/no.xml</filename>
+      <filename>tfu/lang/pl.xml</filename>
+      <filename>tfu/lang/pt.xml</filename>
+      <filename>tfu/lang/ro.xml</filename>
+      <filename>tfu/lang/rs.xml</filename>
+      <filename>tfu/lang/ru.xml</filename>
+      <filename>tfu/lang/se.xml</filename>
+      <filename>tfu/lang/sk.xml</filename>
+      <filename>tfu/lang/tw.xml</filename>
+      <filename>tfu/lang/bg.gif</filename>
+      <filename>tfu/lang/br.gif</filename>
+      <filename>tfu/lang/cn.gif</filename>
+      <filename>tfu/lang/ct.gif</filename>
+      <filename>tfu/lang/cz.gif</filename>
+      <filename>tfu/lang/da.gif</filename>
+      <filename>tfu/lang/de.gif</filename>
+      <filename>tfu/lang/en.gif</filename>
+      <filename>tfu/lang/es.gif</filename>
+      <filename>tfu/lang/fr.gif</filename>
+      <filename>tfu/lang/el.gif</filename>
+      <filename>tfu/lang/hu.gif</filename>
+      <filename>tfu/lang/it.gif</filename>
+      <filename>tfu/lang/jp.gif</filename>
+      <filename>tfu/lang/lt.gif</filename>
+      <filename>tfu/lang/nl.gif</filename>
+      <filename>tfu/lang/no.gif</filename>
+      <filename>tfu/lang/pl.gif</filename>
+      <filename>tfu/lang/pt.gif</filename>
+      <filename>tfu/lang/ro.gif</filename>
+      <filename>tfu/lang/rs.gif</filename>
+      <filename>tfu/lang/ru.gif</filename>
+      <filename>tfu/lang/se.gif</filename>
+      <filename>tfu/lang/sk.gif</filename>
+      <filename>tfu/lang/tw.gif</filename>
+      <filename>tfu/lang/us.gif</filename>
+      <filename>tfu/lang/tr.gif</filename>
+      <filename>tfu/lang/tr.xml</filename>
+      <filename>tfu/lang/readme.txt</filename>     
+      <filename>tfu/img/progressbar_anim.swf</filename>
+      <filename>tfu/img/progressbar.png</filename>
+      <filename>tfu/img/progressbar_back.png</filename>     
+      <filename>images/user_f2.png</filename>
+      <filename>images/jfu_menu_icon.png</filename>
+      <filename>images/jfu_logo.png</filename>
+      <filename>help/en-GB/tfu.html</filename>
+      <filename>help/de-DE/tfu.html</filename>
+      <filename>help/ja-JP/tfu.html</filename>
+      <filename>admin.jfuploader.php</filename>
+      <filename>admin.jfuploader.html.php</filename>
+      <filename>jfuploader.class.php</filename>
+      <filename>toolbar.jfuploader.php</filename>
+      <filename>toolbar.jfuploader.html.php</filename> 
+      <filename>jfuploader.css</filename>
+      <filename>history.htm</filename>
+      <filename>index.htm</filename>
+      <filename>images/index.htm</filename>
+      <filename>js/index.htm</filename>
+      <filename>js/dragdrop_jfu.js</filename>
+      <filename>js/jfu.js</filename>
+      <filename>js/jquery-1.3.2.min.js</filename>
+      <filename>js/jquery-ui-1.7.2.custom.min.js</filename>
+      <filename>tfu/index.htm</filename>
+      <filename>tfu/lang/index.htm</filename>
+      <filename>help/index.htm</filename>
+      <filename>help/en-GB/index.htm</filename>
+      <filename>help/de-DE/index.htm</filename>
+      <filename>help/ja-JP/index.htm</filename>    
+      <filename>images/jfu_plugin_menu.png</filename>
+      <filename>images/jfu_plugin.png</filename>
+      <filename>images/warning.png</filename>
+      <filename>tfu/tfu_3.1.swf</filename>
+      <filename>tfu/verdana.ttf</filename>      
+      <filename>tfu/class.phpmailer.php</filename>
+      <filename>tfu/class.smtp.php</filename>
+      <filename>tfu/tfu_session.php</filename>      
+    </files>
+  </administration>
+</install>

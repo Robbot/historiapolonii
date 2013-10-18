@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" position="status">
+	<name>Art Uploader</name>
+	<author>artetics.com</author>
+	<creationDate>November 2009</creationDate>
+	<copyright>Copyright (C) 2009 artetics.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@artetics.com</authorEmail>
+	<authorUrl>www.artetics.com</authorUrl>
+	<version>1.0.1</version>
+	<description><![CDATA[Art Uploader: this module uploads pictures on server. Please enable module in order to use it. <br /><br />&copy;&nbsp;<a href="http://www.artetics.com">Artetics.com</a> - Start Point For Your Website.]]></description>
+	<files>
+		<filename module="mod_artuploader">mod_artuploader.php</filename>
+		<filename>upload.php</filename>
+		<filename>js/ajaxupload.js</filename>
+		<filename>js/jquery.js</filename>
+		<filename>js/jquery-ui.js</filename>
+		<filename>css/jquery-ui.css</filename>
+	</files>
+	<params>
+            <param name="relativePath" type="text" default="uploads" label="Relative path of destination folder" description="Relative path of destination folder" />
+	</params>
+</install>
